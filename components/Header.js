@@ -15,13 +15,19 @@ const Header = () => {
     <div className={styles.wrapper}>
       <div className={styles.content}>
         <div className={styles.logoContainer}>
-          <Image className={styles.logo} src={Logo} height={40} width={200} />
+          <Image
+            className={styles.logo}
+            src={Logo}
+            alt="logo"
+            height={40}
+            width={200}
+          />
         </div>
         <div className={styles.bannerNav}>
           <div>Our Story</div>
           <div>Membership</div>
           <div>Sign In</div>
-          <di className={styles.accentedButton}>Get Started</di>
+          <div className={styles.accentedButton}>Get Started</div>
         </div>
       </div>
     </div>
